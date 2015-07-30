@@ -38,6 +38,9 @@ var Example = React.createClass({
         barTintColor={'#000000'}
         styles={styles.tabBar}>
         <TabBarItemIOS
+        styles={styles.tabBar}
+        translucent={true}>
+        <SMXTabBarItemIOS
           name="home"
           iconName={'ion|ios-home-outline'}
           title={''}
